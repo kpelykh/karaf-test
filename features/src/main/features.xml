@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="demo-features-${project.version}">
+    <feature name="demo-features" version="${project.version}">
+        <feature>spring-dm</feature>
+        <bundle>mvn:${project.groupId}/demo-bundle/${project.version}/jar</bundle>
+    </feature>
+</features>
